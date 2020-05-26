@@ -49,7 +49,7 @@ namespace BusinessLogicTests
         {
             //TODO: Test the IsWithinRange method in the Validator class
             bool range = BusinessLogic.Validator.IsWithinRange(test, min, max);
-            Assert.IsTrue(range); 
+            Assert.IsFalse(range); 
         }
     }
 }

@@ -30,7 +30,7 @@ namespace BusinessLogic
         /// <returns></returns>
         public static bool IsWithinRange(int numToTest, int minValue, int maxValue)
         {
-            if(numToTest > minValue && numToTest < maxValue)
+            if(numToTest >= minValue && numToTest <= maxValue)
             {
                 return true;
             }
