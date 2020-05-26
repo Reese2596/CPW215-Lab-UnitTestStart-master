@@ -16,7 +16,7 @@ namespace BusinessLogic
             {
                 return false;
             }
-            Regex pattern = new Regex(@"^\d{ 3 } -?\d{ 2}-?\d{ 4$");
+            Regex pattern = new Regex(@"^\d{3}-?\d{2}-?\d{4}$");
             return pattern.IsMatch(ssn);
             
         }
